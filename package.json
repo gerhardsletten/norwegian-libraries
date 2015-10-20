@@ -1,0 +1,39 @@
+{
+  "name": "norwegian-libraries",
+  "version": "1.0.0",
+  "description": "A list and jQuery plugin for searching books at norwegian libraries",
+  "main": "dist/norwegian-libraries.js",
+  "dependencies": {
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {
+    "browserify": "^9.0.3",
+    "http-server": "^0.8.5",
+    "nodemon": "^1.7.1",
+    "open": "0.0.5",
+    "parallelshell": "^2.0.0",
+    "replace": "^0.3.0",
+    "shelljs": "^0.5.3",
+    "uglifyjs": "^2.4.10",
+    "umd": "^3.0.1",
+    "watchify": "^2.6.2",
+    "chai": "^3.3.0",
+    "mocha": "^2.3.3",
+    "supertest": "^1.1.0"
+  },
+  "scripts": {
+    "test": "mocha test/index.js -w",
+    "start": "parallelshell \"npm run watch-umd\" \"npm run watch-dev\" \"npm run server\" \"open http://localhost:8080/examples/index.html\"",
+    "watch-dev": "watchify -d ./examples/js/index.js -o ./examples/dist/bundle.js",
+    "watch-umd": "nodemon --watch src/ -e json,js  -x \"npm run build-umd\"",
+    "server": "http-server .",
+    "build-umd": "node build.js bundle"
+  },
+  "keywords": [
+    "books",
+    "norway",
+    "jquery"
+  ],
+  "author": "Eyvind Gerhard Sletten <gerhardsletten@gmail.com> (http://www.metabits.no/)",
+  "license": "ISC"
+}

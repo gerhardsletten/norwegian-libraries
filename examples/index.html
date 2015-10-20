@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Example with browserify build</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container theme-showcase" role="main">
+		<div class="jumbotron">
+			<h1>jQuery Plugin build with browserify</h1>
+			<p>This example showcase the plugin build with browserify.</p>
+		</div>
+		<div class="page-header">
+			<h2>With data-attributes</h2>
+		</div>
+		<div data-norwegian-libraries='{"query":"title or ISBN", "labelText": "Finn boka", "labelClass": "", "selectClass": "form-control", "btnString":"Finn boka", "btnClass": "btn btn-primary", "favString": "Sett som favoritt", "favClass": "text-muted", "formClass":"form-inline", "cookieName" : "finn-boka-fav"}'></div>
+		<h3>Usage</h3>
+		<pre>&lt;div data-norwegian-libraries=&#39;{&quot;query&quot;:&quot;title or ISBN&quot;, &quot;labelText&quot;: &quot;Finn boka&quot;, &quot;labelClass&quot;: &quot;&quot;, &quot;selectClass&quot;: &quot;form-control&quot;, &quot;btnString&quot;:&quot;Finn boka&quot;, &quot;btnClass&quot;: &quot;btn btn-primary&quot;, &quot;favString&quot;: &quot;Sett som favoritt&quot;, &quot;favClass&quot;: &quot;text-muted&quot;, &quot;formClass&quot;:&quot;form-inline&quot;, &quot;cookieName&quot; : &quot;finn-boka-fav&quot;}&#39;&gt;&lt;/div&gt;</pre>
+
+		<div class="page-header">
+			<h2>With regular jQuery</h2>
+		</div>
+		<div class="js-event"></div>
+		<h3>Event outbut</h3>
+		<pre class="debug">Change select box or submit to see output</pre>
+		<h3>Usage</h3>
+		<pre>$('.js-event').norwegianLibraries({
+    query:"Tittel eller ISBN",
+    labelText: "Finn boka",
+    labelClass: "label-class",
+    selectClass: "form-control",
+    btnString:"Finn boka",
+    btnClass: "btn btn-primary",
+    favString: "Sett som favoritt",
+    favClass: "text-muted",
+    formClass:"form-inline",
+    cookieName : "finn-boka-fav",
+    onSubmit : function(library) {
+    	console.log(library)
+    },
+    onSelect : function(library) {
+    	console.log(library)
+    }
+});</pre>
+	</div>
+    <script src="./dist/bundle.js"></script>
+</body>
+</html>
