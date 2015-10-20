@@ -45,7 +45,8 @@ Clone the repo and `npm install && npm start`. This should open a dev-server at 
 
 ## Examples
 
-Test url's to 
+* [Plugin with Browserify](https://htmlpreview.github.io/?https://github.com/gerhardsletten/norwegian-libraries/blob/master/examples/index.html)
+* [Plugin with global jQuery](https://htmlpreview.github.io/?https://github.com/gerhardsletten/norwegian-libraries/blob/master/examples/index.jquery.html)
 
 ## Test
 
