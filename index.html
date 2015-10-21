@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8" />
+	<title>Norwegian Libraries</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+</head>
+<body>
+	<div class="container theme-showcase" role="main">
+		<div class="jumbotron">
+			<h1>Norwegian Libraries jQuery Plugin</h1>
+			<p>jQuery Plugin to find books in norwegian libraries.</p>
+			<div data-norwegian-libraries='{"query":"title or ISBN", "labelText": "Finn boka", "labelClass": "", "selectClass": "form-control", "btnString":"Finn boka", "btnClass": "btn btn-primary", "favString": "Sett som favoritt", "favClass": "text-muted", "formClass":"form-inline", "cookieName" : "finn-boka-fav"}'></div>
+		</div>
+		<div class="row">
+			<div class="col-sm-8">
+						<div class="page-header">
+							<h2>Install and usage</h2>
+						</div>
+						<pre>npm i norwegian-libraries</pre>
+
+<pre>
+var $ = require('jquery');
+require("norwegian-libraries");
+
+$(function() {
+	$('.js-event').each(function(){
+		var me = $(this),
+			query = me.text();
+		me.norwegianLibraries({
+			query:"title or ISBN"
+		});
+	});
+});
+</pre>
+			</div>
+			<div class="col-sm-4">
+				<div class="page-header">
+					<h2>Examples</h2>
+				</div>
+				<p>
+					<a href="examples/index.html" class="btn btn-primary">Example build with browserify</a>
+				</p>
+				<p>
+					<a href="examples/index.jquery.html" class="btn btn-primary">Example as regular jQuery plugin</a>
+				</p>
+			</div>
+		</div>
+	</div>
+	<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+    <script src="dist/norwegian-libraries.js"></script>
+</body>
+</html>
