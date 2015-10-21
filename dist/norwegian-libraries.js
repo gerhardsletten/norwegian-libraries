@@ -179,7 +179,7 @@
     {
         "id":   167,
         "name": "Berlevåg folkebibliotek",
-        "url":  "http://asp.bibliotekservice.no/berlevaag/portal.aspx"
+        "url":  "http://asp.bibliotekservice.no/berlevaag/portal.aspx?query="
     },
     {
         "id":   168,
