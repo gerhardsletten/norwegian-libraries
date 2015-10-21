@@ -43,10 +43,9 @@ You can also use the library by including it in your document:
 
 Clone the repo and `npm install && npm start`. This should open a dev-server at [localhost:8080/examples/index.html](http://localhost:8080/examples/index.html)
 
-## Examples
+## Preview
 
-* [Plugin with Browserify](https://htmlpreview.github.io/?https://github.com/gerhardsletten/norwegian-libraries/blob/master/examples/index.html)
-* [Plugin with global jQuery](https://htmlpreview.github.io/?https://github.com/gerhardsletten/norwegian-libraries/blob/master/examples/index.jquery.html)
+* [See examples and usage here](http://gerhardsletten.github.io/norwegian-libraries/)
 
 ## Test
 
