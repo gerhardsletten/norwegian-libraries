@@ -752,7 +752,7 @@
     {
         "id":   243,
         "name": "Kristiansand folkebibliotek",
-        "url":  "http://aleph.kristiansand.kommune.no/f/?func=find-b&request="
+        "url":  "http://aleph.kristiansand.kommune.no/F/Y9VFQJ23X92STXINAHM1N8R45VT2RJT2KBNIA73U9NM8BXTPGE-23743?func=find-b&func=find-b&find_code=WRD&request="
     },
     {
         "id":   244,
@@ -857,7 +857,7 @@
     {
         "id":   65,
         "name": "Lier bibliotek",
-        "url":  "http://www.lier.folkebibl.no/cgi-bin/websok?mode=vt&pubsok_txt_0="
+        "url":  "http://lier.folkebibl.no/cgi-bin/websok/?mode=vt&pubsok_txt_0="
     },
     {
         "id":   258,
@@ -1452,7 +1452,7 @@
     {
         "id":   338,
         "name": "Ski bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=ski-fb&unit=6471&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/mikromarc3/ski-fb/search.aspx?db=ski-fb&unit=6471&sc=ft&LB=FT&IN=&SU=&sw=test"
     },
     {
         "id":   104,
@@ -1497,7 +1497,7 @@
     {
         "id":   107,
         "name": "Sogndal bibliotek",
-        "url":  "http://sdalbib.sogndal.folkebibl.no/cgi-bin/websok?mode=vt&pubsok_txt_0="
+        "url":  "http://158.150.118.162/Mikromarc3/search.aspx?Unit=6471&db=mikromarc3&SC=FT&LB=FT&IN=0&SU=6483&SW="
     },
     {
         "id":   345,
@@ -1512,7 +1512,7 @@
     {
         "id":   347,
         "name": "Songdalen bibliotek",
-        "url":  "http://websok.songdalen-bibliotek.no/mikromarc3/web/search.aspx?db=mikromarc3&unit=6471&sc=ft&sw="
+        "url":  "http://158.150.118.162/Mikromarc3/search.aspx?Unit=6471&db=mikromarc3&SC=FT&LB=FT&IN=0&SU=6483&SW="
     },
     {
         "id":   108,
@@ -1532,7 +1532,7 @@
     {
         "id":   350,
         "name": "Stavanger bibliotek",
-        "url":  "http://aleph.stavanger.kommune.no/f/?func=find-b&request="
+        "url":  "http://aleph.stavanger.kommune.no/F/II3U7J1X4358MP4NYQ79SQXLA1A3T8N3IBXS76KM1IHC579XUB-30672?func=find-b&find_code=WRD&request="
     },
     {
         "id":   109,

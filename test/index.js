@@ -1,5 +1,8 @@
-var expect = require('chai').expect
-var request = require('supertest');
+//var request = require('supertest');
+var Nightmare = require('nightmare');
+var expect = require('chai').expect; // jshint ignore:line
+require('mocha-generators').install();
+var nightmare = Nightmare();
 
 var data = require('../src/libraries.json');
 
@@ -16,12 +19,15 @@ describe('Libraries', function() {
 				expect(link.id).to.be.a('number');
 			});
 			var query = link.url + "test";
-			it('The url: ' + query + ' should return 200', function (done) {
+			it('should contain a input with value "test"', function*() {
 				this.timeout(20000);
-				var req = request(query);
-				req
-				.head()
-				.expect(200,done);
+				
+				var input = yield nightmare
+					.goto(query)
+					.evaluate(function () {
+					  return document.querySelector('input[value="test"]').value
+					});
+				expect(input).to.equal('test');
 			});
 		});
 	});

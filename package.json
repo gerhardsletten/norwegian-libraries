@@ -1,29 +1,31 @@
 {
   "name": "norwegian-libraries",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A list and jQuery plugin for searching books at norwegian libraries",
   "main": "dist/norwegian-libraries.js",
   "dependencies": {
     "jquery": "^2.1.4"
   },
   "repository": {
-      "type": "git",
-      "url": "https://github.com/gerhardsletten/norwegian-libraries.git"
+    "type": "git",
+    "url": "https://github.com/gerhardsletten/norwegian-libraries.git"
   },
   "devDependencies": {
     "browserify": "^9.0.3",
+    "chai": "^3.3.0",
     "http-server": "^0.8.5",
+    "mocha": "^2.3.3",
+    "mocha-generators": "^1.2.0",
+    "nightmare": "^2.0.7",
     "nodemon": "^1.7.1",
     "open": "0.0.5",
     "parallelshell": "^2.0.0",
     "replace": "^0.3.0",
     "shelljs": "^0.5.3",
+    "supertest": "^1.1.0",
     "uglifyjs": "^2.4.10",
     "umd": "^3.0.1",
-    "watchify": "^2.6.2",
-    "chai": "^3.3.0",
-    "mocha": "^2.3.3",
-    "supertest": "^1.1.0"
+    "watchify": "^2.6.2"
   },
   "scripts": {
     "test": "mocha test/index.js -w",
@@ -39,11 +41,13 @@
     "jquery"
   ],
   "bugs": {
-        "url": "https://github.com/gerhardsletten/norwegian-libraries/issues"
+    "url": "https://github.com/gerhardsletten/norwegian-libraries/issues"
   },
   "author": "Eyvind Gerhard Sletten",
-  "contributors": [{
-    "name": "Eirik Krogstad"
-  }],
+  "contributors": [
+    {
+      "name": "Eirik Krogstad"
+    }
+  ],
   "license": "ISC"
 }
