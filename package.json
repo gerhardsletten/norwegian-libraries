@@ -28,7 +28,7 @@
     "watchify": "^2.6.2"
   },
   "scripts": {
-    "test": "mocha test/index.js -w",
+    "test": "mocha --harmony test/index.js -w",
     "start": "parallelshell \"npm run watch-umd\" \"npm run watch-dev\" \"npm run server\" \"open http://localhost:8080/examples/index.html\"",
     "watch-dev": "watchify -d ./examples/js/index.js -o ./examples/dist/bundle.js",
     "watch-umd": "nodemon --watch src/ -e json,js  -x \"npm run build-umd\"",

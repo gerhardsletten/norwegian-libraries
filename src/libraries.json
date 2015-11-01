@@ -137,7 +137,7 @@
     {
         "id":   167,
         "name": "Berlevåg folkebibliotek",
-        "url":  "http://asp.bibliotekservice.no/berlevaag/portal.aspx?query="
+        "url":  "http://asp.bibliotekservice.no/berlevaag/doclist.aspx?fquery="
     },
     {
         "id":   168,
@@ -152,7 +152,7 @@
     {
         "id":   170,
         "name": "Bjerkreim folkebibliotek",
-        "url":  "http://asp.bibliotekservice.no/bjerkreim/doclist.aspx?fquery=fr%3d"
+        "url":  "http://asp.bibliotekservice.no/bjerkreim/doclist.aspx?fquery="
     },
     {
         "id":   12,
@@ -347,7 +347,7 @@
     {
         "id":   188,
         "name": "Flesberg folkebibliotek",
-        "url":  "http://asp.bibliotekservice.no/flesberg/doclist.aspx?fquery=fr%3d"
+        "url":  "http://asp.bibliotekservice.no/flesberg/doclist.aspx?fquery="
     },
     {
         "id":   189,
@@ -382,7 +382,7 @@
     {
         "id":   194,
         "name": "Froland folkebibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=froland-fb&unit=6471&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/froland-fb/search.aspx?Unit=6471&db=froland-fb&SC=FT&SW="
     },
     {
         "id":   195,
@@ -647,7 +647,7 @@
     {
         "id":   230,
         "name": "Hurum folkebibliotek",
-        "url":  "http://bibliotek.hurum.kommune.no/bibliotek/doclist.aspx?fquery=fr%3d"
+        "url":  "http://bibliotek.hurum.kommune.no/bibliotek/doclist.aspx?fquery="
     },
     {
         "id":   51,
@@ -857,7 +857,7 @@
     {
         "id":   65,
         "name": "Lier bibliotek",
-        "url":  "http://lier.folkebibl.no/cgi-bin/websok/?mode=vt&pubsok_txt_0="
+        "url":  "http://websok.lier.folkebibl.no/cgi-bin/websok?mode=vistitler&st=p&publikumskjema=1&indekssok_kval=&pubsok_kval_0=&pubsok_txt_0="
     },
     {
         "id":   258,
@@ -1017,7 +1017,7 @@
     {
         "id":   284,
         "name": "Molde bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=molde-fb&unit=6465&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/molde/search.aspx?Unit=6465&db=molde-fb&SC=FT&SW="
     },
     {
         "id":   71,
@@ -1092,7 +1092,7 @@
     {
         "id":   291,
         "name": "Nesodden bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=nesodden-fb&unit=6465&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/nesodden-fb/search.aspx?Unit=6465&db=nesodden-fb&SC=FT&SW="
     },
     {
         "id":   292,
@@ -1307,7 +1307,7 @@
     {
         "id":   317,
         "name": "Rollag folkebibliotek",
-        "url":  "http://asp.bibliotekservice.no/rollag/doclist.aspx?fquery=fr%3d"
+        "url":  "http://asp.bibliotekservice.no/rollag/doclist.aspx?fquery="
     },
     {
         "id":   318,
@@ -1387,7 +1387,7 @@
     {
         "id":   327,
         "name": "Sandnes bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=sandnes-fb&unit=6471&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/Sandnes/search.aspx?Unit=6471&db=sandnes-fb&SC=FT&SW="
     },
     {
         "id":   328,
@@ -1452,7 +1452,7 @@
     {
         "id":   338,
         "name": "Ski bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/ski-fb/search.aspx?db=ski-fb&unit=6471&sc=ft&LB=FT&IN=&SU=&sw=test"
+        "url":  "http://websok.mikromarc.no/mikromarc3/ski-fb/search.aspx?db=ski-fb&unit=6471&sc=ft&LB=FT&IN=&SU=&sw="
     },
     {
         "id":   104,
@@ -1522,17 +1522,17 @@
     {
         "id":   348,
         "name": "Spydeberg bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=spydeberg-fb&unit=6471&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/spydeberg-fb/search.aspx?Unit=6471&db=spydeberg-fb&SC=FT&SW="
     },
     {
         "id":   349,
         "name": "Stange bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=stange-fb&unit=6471&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/stange-fb/search.aspx?Unit=6471&db=stange-fb&SC=FT&SW="
     },
     {
         "id":   350,
         "name": "Stavanger bibliotek",
-        "url":  "http://aleph.stavanger.kommune.no/F/II3U7J1X4358MP4NYQ79SQXLA1A3T8N3IBXS76KM1IHC579XUB-30672?func=find-b&find_code=WRD&request="
+        "url":  "http://www.stavanger-kulturhus.no/content/search?searchfilter=bibliotek&searchstring="
     },
     {
         "id":   109,
@@ -1767,7 +1767,7 @@
     {
         "id":   382,
         "name": "Tysnes folkebibliotek",
-        "url":  "http://asp.bibliotekservice.no/tysnes/doclist.aspx?fquery=fr%3d"
+        "url":  "http://asp.bibliotekservice.no/tysnes/doclist.aspx?fquery="
     },
     {
         "id":   125,
@@ -1982,7 +1982,7 @@
     {
         "id":   408,
         "name": "Ås bibliotek",
-        "url":  "http://websok.mikromarc.no/mikromarc3/web/search.aspx?db=as-fb&unit=29490&sc=ft&sw="
+        "url":  "http://websok.mikromarc.no/Mikromarc3/as-fb/search.aspx?SC=FT&LB=FT&MT=0&SU=6485&DG=0&Unit=29490&db=as-fb&SW="
     },
     {
         "id":   409,

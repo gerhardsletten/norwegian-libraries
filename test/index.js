@@ -20,7 +20,7 @@ describe('Libraries', function() {
 			});
 			var query = link.url + "test";
 			it('should contain a input with value "test"', function*() {
-				this.timeout(20000);
+				this.timeout(25000);
 				
 				var input = yield nightmare
 					.goto(query)
